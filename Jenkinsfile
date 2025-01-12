@@ -20,7 +20,7 @@ pipeline {
                 '''
             }
         }
-    }
+    
         stage('Test') {
             steps {
                 sh '''
@@ -28,4 +28,5 @@ pipeline {
                 '''
             }
         }
+    }
 }
